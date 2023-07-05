@@ -1,0 +1,60 @@
+.app-container {
+  display: flex;
+  width: 1440px;
+  height: 800px;
+  padding: 152px 0px 151px 0px;
+  justify-content: center;
+  align-items: center;
+  background: var(--light-grey, #d5e1ef);
+}
+
+.qr-container {
+  width: 320px;
+  height: 497px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--white, #fff);
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.icon-container {
+  width: 288px;
+  height: 288px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #2c7dfa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-title {
+  width: 256px;
+  color: var(--dark-navy, #1f314f);
+  text-align: center;
+  /* Heading */
+  font-size: 22px;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.qr-description {
+  width: 256px;
+  color: var(--grey, #7d889e);
+  text-align: center;
+  /* Body */
+  font-size: 15px;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.188px;
+}
